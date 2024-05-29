@@ -1,7 +1,9 @@
+import BookablesList from "@/components/bookables-list";
+
 export default function BookablesPage() {
   return (
-    <main>
-      <p>Bookables!</p>
+    <main className="bookables-page">
+      <BookablesList />
     </main>
   );
 }
